@@ -1,0 +1,17 @@
+.about-section {
+  background-color: #f8f9fa; 
+ margin-top: 50px;
+}
+
+.about-section h2 {
+  color: #0f172a; /* Dark color */
+}
+
+.about-section .card {
+  border: none;
+  transition: transform 0.3s ease;
+}
+
+.about-section .card:hover {
+  transform: translateY(-5px);
+}

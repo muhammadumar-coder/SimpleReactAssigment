@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.carousel-inner {
+  height: 80vh;
+}
+
+.carousel-item img {
+  object-fit: contain;
+  height: 100%;
+  border-radius: 12px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item img:hover {
+  transform: scale(1.03);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: white;
+}
+
+@media (max-width: 768px) {
+  .carousel-inner {
+    height: 50vh;
+  }
+}

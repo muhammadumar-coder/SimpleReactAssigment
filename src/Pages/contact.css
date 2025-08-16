@@ -1,0 +1,17 @@
+.contact-section {
+  background-color: #f8f9fa; /* Light grey */
+  margin-top: 50px;
+}
+
+.contact-section h2 {
+  color: #0f172a;
+}
+
+form {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+form:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}

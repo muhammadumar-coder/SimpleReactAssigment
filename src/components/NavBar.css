@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+.navbar {
+  background-color: #0036b5 !important;
+
+
+}
+.btn{
+  background-color: #142650;
+  color: white;
+}
+.btn:hover{
+  background-color: rgb(59, 59, 140);
+}
+
+.navbar-brand{
+  color: white !important;
+}
